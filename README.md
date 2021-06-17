@@ -6,6 +6,8 @@ Clone this repository `git clone https://github.com/CristianGOEN/floorfy-technic
 
 Execute docker with `docker-compose up`
 
+Run composer with `composer install`
+
 Serve the application with `php artisan serve`
 
 ## How to run tests

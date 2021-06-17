@@ -20,6 +20,8 @@ services:
       - MYSQL_ROOT_PASSWORD=
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_DATABASE=floorfy
+    volumes:
+      - ./database/migrations:/docker-entrypoint-initdb.d
 
   phpmyadmin:
     image: phpmyadmin
